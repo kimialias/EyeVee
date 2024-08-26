@@ -9,13 +9,16 @@ long-term visual issues. This thesis introduces EyeVee, an innovative computer s
 to mitigate eye strain through an intelligent eye blink reminder system. Leveraging computer vision 
 technology, EyeVee monitors user eye behaviour in real-time to detect instances of reduced blink
 frequency, a key contributor to eye strain.
+
 The software employs a non-intrusive, user-friendly interface that discreetly tracks and analyses 
 blink patterns during computer use. Through machine learning algorithms, EyeVee adapts to 
 individual blink rates, providing personalized reminders to encourage regular blinking and prevent 
 eye strain and dry eyes.
+
 In addition to its preventive capabilities, EyeVee offers features such as user analytics, and 
 customizable settings to enhance user experience. The software is compatible with major operating 
 systems and seamlessly integrates into daily computer routines.
+
 This research contributes to the growing field of digital health by addressing a prevalent concern in 
 our technology-driven society. EyeVee represents a practical solution to alleviate computer-induced 
 eye strain, promoting eye health and overall well-being in the digital era.
