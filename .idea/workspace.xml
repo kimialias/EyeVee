@@ -4,52 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff471e4-f7d4-4e4e-8d4b-a56c800e31e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/eyeblink.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio_notification/Defaultaudio.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio_notification/LoopingAlarm2.MP3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio_notification/Mail.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio_notification/SMS.MP3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/..._logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/20_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/20_logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/CustomTkinter_logo_single.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/add_user_dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/add_user_light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/blinklul.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/chat_dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/chat_light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/eye-logo-lul.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/eye-logo-lul2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/eye-logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/eye-logo2.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/eye-logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/eyeblink.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/feedback_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/header_20rule_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/header_EyeVee_Settings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/header_additional_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/header_eyevee_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/header_info_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/header_monitorSettings_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/header_settings_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/header_stats_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/home_dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/home_light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/i_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/image_icon_light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/large_test_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/large_test_image.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/monitorblank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/share_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/stats.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/wheel.png" afterDir="false" />
+    <list default="true" id="6ff471e4-f7d4-4e4e-8d4b-a56c800e31e8" name="Changes" comment="added blink_data.py">
+      <change afterPath="$PROJECT_DIR$/test_images/20-20-20_rule_page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_images/20_rule_notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_images/NO_test_camera_window.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_images/additional_page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_images/blink_rate_statistics_page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_images/eyevee_page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_images/information_page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_images/monitor_settings_page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_images/settings_page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_images/test_camera_window.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_images/windows_notification.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blink_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/blink_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +27,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "kimialias"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/kimialias/eyeblink.git",
@@ -69,13 +43,16 @@
   "associatedIndex": 0
 }]]></component>
   <component name="ProjectId" id="2lCJC4JLfplvLvkSYF4DDJ0hoZJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/User/PycharmProjects/eyeblink",
@@ -103,6 +80,19 @@
       <option name="presentableId" value="Default" />
       <updated>1724678000578</updated>
     </task>
+    <task id="LOCAL-00001" summary="added blink_data.py">
+      <option name="closed" value="true" />
+      <created>1724679193056</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724679193056</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added blink_data.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="added blink_data.py" />
   </component>
 </project>
