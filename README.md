@@ -30,7 +30,7 @@ Monitor Settings
 Blink rate statistics (daily, weekly, monthly, yearly)
 This repository is dedicated solely to the EyeVee project. Feel free to explore the code to understand how the application works and how it contributes to promoting eye health in the digital age.
 
-## Credit to
+### Credit to
 
 Murtaza's Workshop - Robotics and AI. (2022, January 7). Eye Blink Counter using OpenCV Python | Computer Vision [Video]. 
 YouTube. https://www.youtube.com/watch?v=-TVUwH1PgBs&t=1378s
