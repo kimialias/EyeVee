@@ -44,6 +44,11 @@ This repository is dedicated solely to the EyeVee project. Feel free to explore 
 ![EyeVee](test_images/additional_page.png)
 ![EyeVee](test_images/settings_page.png)
 
+![EyeVee](test_images/test_camera_window.png)
+![EyeVee](test_images/NO_test_camera_window.png)
+![EyeVee](test_images/windows_notification.png)
+![EyeVee](test_images/20_rule_notification.png)
+
 ## Credit to
 
 American Optometric Association. (n.d.). Computer vision syndrome. Retrieved from 
