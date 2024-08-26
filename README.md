@@ -35,6 +35,15 @@ Monitor Settings
 Blink rate statistics (daily, weekly, monthly, yearly)
 This repository is dedicated solely to the EyeVee project. Feel free to explore the code to understand how the application works and how it contributes to promoting eye health in the digital age.
 
+## User Interface
+
+![EyeVee](test_images/eyevee_page.png)
+![EyeVee](test_images/20-20-20_rule_page.png)
+![EyeVee](test_images/monitor_settings_page.png)
+![EyeVee](test_images/information_page.png)
+![EyeVee](test_images/additional_page.png)
+![EyeVee](test_images/settings_page.png)
+
 ## Credit to
 
 American Optometric Association. (n.d.). Computer vision syndrome. Retrieved from 
