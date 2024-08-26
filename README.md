@@ -37,16 +37,37 @@ This repository is dedicated solely to the EyeVee project. Feel free to explore 
 
 ## User Interface
 
+### EyeVee page
 ![EyeVee](test_images/eyevee_page.png)
+
+### 20-20-20 Rule page
 ![EyeVee](test_images/20-20-20_rule_page.png)
+
+### Monitor Settings page
 ![EyeVee](test_images/monitor_settings_page.png)
+
+### Blink Rate Statistics page
+![EyeVee](test_images/blink_rate_statistics_page.png)
+
+### Information page
 ![EyeVee](test_images/information_page.png)
+
+### Additional page
 ![EyeVee](test_images/additional_page.png)
+
+### Settings page
 ![EyeVee](test_images/settings_page.png)
 
+### Test camera window with face detected
 ![EyeVee](test_images/test_camera_window.png)
+
+### Test camera window with no face detected
 ![EyeVee](test_images/NO_test_camera_window.png)
+
+### Windows notification for EyeVee system
 ![EyeVee](test_images/windows_notification.png)
+
+### Windows notification for 20-20-20 Rule
 ![EyeVee](test_images/20_rule_notification.png)
 
 ## Credit to
