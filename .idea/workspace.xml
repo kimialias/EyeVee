@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ff471e4-f7d4-4e4e-8d4b-a56c800e31e8" name="Changes" comment="added blink_data.py">
-      <change afterPath="$PROJECT_DIR$/test_images/20-20-20_rule_page.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/20_rule_notification.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/NO_test_camera_window.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/additional_page.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/blink_rate_statistics_page.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/eyevee_page.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/information_page.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/monitor_settings_page.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/settings_page.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/test_camera_window.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_images/windows_notification.png" afterDir="false" />
+    <list default="true" id="6ff471e4-f7d4-4e4e-8d4b-a56c800e31e8" name="Changes" comment="added a bunch of images">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blink_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/blink_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +54,35 @@
       <recent name="C:\Users\User\PycharmProjects\eyeblink" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="eyeblink" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -88,11 +107,20 @@
       <option name="project" value="LOCAL" />
       <updated>1724679193056</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added a bunch of images">
+      <option name="closed" value="true" />
+      <created>1724683935952</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724683935952</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added blink_data.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="added blink_data.py" />
+    <MESSAGE value="added a bunch of images" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a bunch of images" />
   </component>
 </project>

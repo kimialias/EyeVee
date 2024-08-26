@@ -63,7 +63,11 @@ class App(customtkinter.CTk):
 
         image_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "test_images")
 
-        self.logo_image = customtkinter.CTkImage(Image.open(os.path.join(image_path, "eye-logo1.png")), size=(50, 26))
+        #self.logo_image = customtkinter.CTkImage(Image.open(os.path.join(image_path, "eye-logo1.png")), size=(50, 26))
+
+        self.logo_image = customtkinter.CTkImage(light_image=Image.open(os.path.join(image_path, "eye-logo1.png")),
+                                                   dark_image=Image.open(os.path.join(image_path, "eye-logo1.png")),
+                                                   size=(50, 26))
 
         self.eyevee_image = customtkinter.CTkImage(light_image=Image.open(os.path.join(image_path, "blinklul.png")),
                                                  dark_image=Image.open(os.path.join(image_path, "blinklul.png")), size=(20, 20))
