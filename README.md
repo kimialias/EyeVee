@@ -1,4 +1,4 @@
-Please note that this project was developed using Python 3.7.6, pip 19.2.3, and MediaPipe 0.8.9.1. Compatibility with other versions or configurations may vary.
+Please note that the function for blink rate statistics page is still unfinished
 
 ![EyeVee](test_images/header_eyevee_image.png)
 
