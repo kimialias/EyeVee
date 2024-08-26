@@ -2,8 +2,6 @@ Please note that this project was developed using Python 3.7.6, pip 19.2.3, and 
 
 ![EyeVee](test_images/header_eyevee_image.png)
 
-# EyeVee
-
 ## Abstract
 
 Prolonged computer usage is a common cause of eye strain, leading to discomfort and potential 
