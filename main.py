@@ -49,7 +49,7 @@ class App(customtkinter.CTk):
         ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
 
         self.title("EyeVee")
-        self.iconbitmap('C:\\Users\\User\\PycharmProjects\\BlinkCounter2\\test_images\\eye-logo2.ico')
+        self.iconbitmap('C:\\Users\\User\\PycharmProjects\\eyeblink\\test_images\\eye-logo2.ico')
         self.geometry(f"{1440}x{820}")
         self.minsize(1200,600)
 
@@ -62,8 +62,6 @@ class App(customtkinter.CTk):
         # IMAGES
 
         image_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "test_images")
-
-        #self.logo_image = customtkinter.CTkImage(Image.open(os.path.join(image_path, "eye-logo1.png")), size=(50, 26))
 
         self.logo_image = customtkinter.CTkImage(light_image=Image.open(os.path.join(image_path, "eye-logo1.png")),
                                                    dark_image=Image.open(os.path.join(image_path, "eye-logo1.png")),
@@ -320,10 +318,6 @@ class App(customtkinter.CTk):
                                                          font=customtkinter.CTkFont(size=15))
         self.switch_frame_group.grid(row=2, column=0, columnspan=1, padx=10, pady=10, sticky="")
 
-        '''self.rule20_switch = customtkinter.CTkSwitch(master=self.switch_frame, font=customtkinter.CTkFont(size=15, weight="bold"),
-                                                     command=lambda: self.after(1, self.twentyRule_notify()),progress_color="green", border_width=0.1)
-        self.rule20_switch.grid(row=3, column=0, pady=10, padx=20, sticky="n")'''
-
         self.switch_frame2 = customtkinter.CTkFrame(self.switch_frame, corner_radius=0, fg_color="transparent")
         self.switch_frame2.grid(row=3, column=0, padx=(20, 20), pady=(20, 0))
 
@@ -366,10 +360,6 @@ class App(customtkinter.CTk):
                                                                                         "You should aim to blink at least 12 times per minute.",
                                                          font=customtkinter.CTkFont(size=15))
         self.switch_frame_group.grid(row=2, column=0, columnspan=1, padx=10, pady=10, sticky="")
-        '''
-        self.rule20_switch = customtkinter.CTkSwitch(master=self.switch_frame, text="On/Off Switch")
-        self.rule20_switch.grid(row=3, column=0, pady=10, padx=20, sticky="n")
-        '''
 
         self.switch_frame2 = customtkinter.CTkFrame(self.switch_frame,corner_radius=0, fg_color="transparent")
         self.switch_frame2.grid(row=3, column=0, padx=(20, 20), pady=(20, 0))
@@ -390,8 +380,6 @@ class App(customtkinter.CTk):
         self.third_frame_button_4 = customtkinter.CTkButton(self.switch_frame2, text="Yearly", font=customtkinter.CTkFont(size=15, weight="bold"),
                                                             command=lambda: self.widgets_yearly())
         self.third_frame_button_4.grid(row=4, column=3, padx=20, pady=10)
-        '''self.third_frame_button_5 = customtkinter.CTkButton(self.switch_frame2, text="All-Time", font=customtkinter.CTkFont(size=15, weight="bold"))
-        self.third_frame_button_5.grid(row=4, column=4, padx=20, pady=10)'''
 
         # 3th
 # ---------------------------------------------------------------------------------------------------------------------------
@@ -467,10 +455,6 @@ class App(customtkinter.CTk):
         self.switch_frame_group = customtkinter.CTkLabel(master=self.switch_frame, text="Here, under the 'Information' tab, we provide a link to articles that we believe will help you\navoid eye strain and maintain the health of your eyes when using the computer.",
                                                          font=customtkinter.CTkFont(size=15))
         self.switch_frame_group.grid(row=2, column=0, columnspan=1, padx=10, pady=10, sticky="")
-        '''
-        self.rule20_switch = customtkinter.CTkSwitch(master=self.switch_frame, text="On/Off Switch")
-        self.rule20_switch.grid(row=3, column=0, pady=10, padx=20, sticky="n")
-        '''
 
         self.switch_frame2 = customtkinter.CTkFrame(self.switch_frame,corner_radius=0, fg_color="transparent")
         self.switch_frame2.grid(row=3, column=0, padx=(20, 20), pady=(20, 0))
@@ -513,10 +497,7 @@ class App(customtkinter.CTk):
         self.switch_frame_group = customtkinter.CTkLabel(master=self.switch_frame, text="Here, under the 'Additional' tab, we would be very grateful\nfor your support to share and send us your feedback.\nThank You!!",
                                                          font=customtkinter.CTkFont(size=15))
         self.switch_frame_group.grid(row=2, column=0, columnspan=1, padx=10, pady=10, sticky="")
-        '''
-        self.rule20_switch = customtkinter.CTkSwitch(master=self.switch_frame, text="On/Off Switch")
-        self.rule20_switch.grid(row=3, column=0, pady=10, padx=20, sticky="n")
-        '''
+
         # Creating 4 buttons
         self.fifth_frame_button_1 = customtkinter.CTkButton(self.switch_frame, text="Share this Software", image=self.share_icon, compound="left", font=customtkinter.CTkFont(size=15, weight="bold"),
                                                             command= lambda: self.share_link())
@@ -542,11 +523,6 @@ class App(customtkinter.CTk):
         self.switch_frame2 = customtkinter.CTkFrame(self.switch_frame, corner_radius=0, fg_color="transparent")
         self.switch_frame2.grid(row=6, column=0, padx=(20, 20), pady=(20, 0), sticky="nsw")
         self.switch_frame2.grid_rowconfigure(6, weight=1)
-
-        # words at the top (just in case)
-        '''self.switch_frame_group = customtkinter.CTkLabel(master=self.switch_frame, text="Settings lul",
-                                                         font=customtkinter.CTkFont(size=15))
-        self.switch_frame_group.grid(row=2, column=0, columnspan=1, padx=10, pady=10, sticky="")'''
 
         # ---------------------------------------------------------------------------------------------------------------------------
         # settings
@@ -595,7 +571,7 @@ class App(customtkinter.CTk):
 
         # settings
         # ---------------------------------------------------------------------------------------------------------------------------
-        # EyeVee settings
+        # EyeVee settings in Settings page (optional)
 
         '''self.switch_frame3 = customtkinter.CTkFrame(self.sixth_frame)
         self.switch_frame3.grid(row=6, column=0, padx=(20, 20), pady=(20, 0), sticky="nsw")
@@ -787,7 +763,7 @@ class App(customtkinter.CTk):
                                      title="20-20-20 Rule",
                                      msg="20 minutes has passed, \nPlease look at an object 20 feet away(6 meters) for 20 seconds.",
                                      duration= "long",
-                                     icon="C:\\Users\\User\\PycharmProjects\\BlinkCounter2\\test_images\\20_logo2.png")
+                                     icon="C:\\Users\\User\\PycharmProjects\\eyeblink\\test_images\\20_logo2.png")
                 toast.set_audio(audio.LoopingAlarm2, loop=False)
                 toast.add_actions(label="Got it")
                 toast.show()
@@ -939,7 +915,7 @@ class App(customtkinter.CTk):
         color = (255, 0, 255)
 
         starting_time = time.time()
-        maximum_time = minutesSetup * 10  # Change the value to 60 after finished prototyping
+        maximum_time = minutesSetup * 60  # Change the value to 60 after finished prototyping
 
         # File path for storing the data
         file_path = "blink_data.py"
@@ -981,16 +957,16 @@ class App(customtkinter.CTk):
         data = read_data(file_path)
 
         def defaultsound():
-            playsound("C:\\Users\\User\\PycharmProjects\\BlinkCounter2\\audio_notification\\Defaultaudio.mp3")
+            playsound("C:\\Users\\User\\PycharmProjects\\eyeblink\\audio_notification\\Defaultaudio.mp3")
 
         def smssound():
-            playsound("C:\\Users\\User\\PycharmProjects\\BlinkCounter2\\audio_notification\\SMS.mp3")
+            playsound("C:\\Users\\User\\PycharmProjects\\eyeblink\\audio_notification\\SMS.mp3")
 
         def mailsound():
-            playsound("C:\\Users\\User\\PycharmProjects\\BlinkCounter2\\audio_notification\\Mail.mp3")
+            playsound("C:\\Users\\User\\PycharmProjects\\eyeblink\\audio_notification\\Mail.mp3")
 
         def loopingalarm2sound():
-            playsound("C:\\Users\\User\\PycharmProjects\\BlinkCounter2\\audio_notification\\LoopingAlarm2.mp3")
+            playsound("C:\\Users\\User\\PycharmProjects\\eyeblink\\audio_notification\\LoopingAlarm2.mp3")
 
         def windowsnotificationKeepitup():
             if (playSoundOnlySettings == "Disable"):
@@ -999,7 +975,7 @@ class App(customtkinter.CTk):
                                      title="Keep it up!",
                                      msg=f"Your blink rate per minute is {average_blink}!\nTarget blink rate per minute => {blinkSetup}.",
                                      duration="long",
-                                     icon="C:\\Users\\User\\PycharmProjects\\BlinkCounter2\\test_images\\eyeblink.gif")
+                                     icon="C:\\Users\\User\\PycharmProjects\\eyeblink\\test_images\\eyeblink.gif")
                 # Condition for ringtone Settings
                 if (ringtoneSettings == "Default"):
                     toast.set_audio(audio.Default, loop=False)
@@ -1028,7 +1004,7 @@ class App(customtkinter.CTk):
                                      title="Blink More!",
                                      msg=f"Your blink rate per minute is {average_blink}!\nTarget blink rate per minute => {blinkSetup}.",
                                      duration="long",
-                                     icon="C:\\Users\\User\\PycharmProjects\\BlinkCounter2\\test_images\\eyeblink.gif")
+                                     icon="C:\\Users\\User\\PycharmProjects\\eyeblink\\test_images\\eyeblink.gif")
                 # Condition for ringtone Settings
                 if (ringtoneSettings == "Default"):
                     toast.set_audio(audio.Default, loop=False)
@@ -1198,7 +1174,7 @@ class App(customtkinter.CTk):
         color = (255, 0, 255)
 
         starting_time = time.time()
-        maximum_time = minutesSetup * 10  # Change the value to 60 after finished prototyping
+        maximum_time = minutesSetup * 60  # Change the value to 60 after finished prototyping
 
         # File path for storing the data
         file_path = "blink_data.py"
@@ -1240,16 +1216,16 @@ class App(customtkinter.CTk):
         data = read_data(file_path)
 
         def defaultsound():
-            playsound("C:\\Users\\User\\PycharmProjects\\BlinkCounter2\\audio_notification\\Defaultaudio.mp3")
+            playsound("C:\\Users\\User\\PycharmProjects\\eyeblink\\audio_notification\\Defaultaudio.mp3")
 
         def smssound():
-            playsound("C:\\Users\\User\\PycharmProjects\\BlinkCounter2\\audio_notification\\SMS.mp3")
+            playsound("C:\\Users\\User\\PycharmProjects\\eyeblink\\audio_notification\\SMS.mp3")
 
         def mailsound():
-            playsound("C:\\Users\\User\\PycharmProjects\\BlinkCounter2\\audio_notification\\Mail.mp3")
+            playsound("C:\\Users\\User\\PycharmProjects\\eyeblink\\audio_notification\\Mail.mp3")
 
         def loopingalarm2sound():
-            playsound("C:\\Users\\User\\PycharmProjects\\BlinkCounter2\\audio_notification\\LoopingAlarm2.mp3")
+            playsound("C:\\Users\\User\\PycharmProjects\\eyeblink\\audio_notification\\LoopingAlarm2.mp3")
 
         def windowsnotificationKeepitup():
             if (playSoundOnlySettings == "Disable"):
@@ -1258,7 +1234,7 @@ class App(customtkinter.CTk):
                                      title="Keep it up!",
                                      msg=f"Your blink rate per minute is {average_blink}!\nTarget blink rate per minute => {blinkSetup}.",
                                      duration="long",
-                                     icon="C:\\Users\\User\\PycharmProjects\\BlinkCounter2\\test_images\\eyeblink.gif")
+                                     icon="C:\\Users\\User\\PycharmProjects\\eyeblink\\test_images\\eyeblink.gif")
                 # Condition for ringtone Settings
                 if (ringtoneSettings == "Default"):
                     toast.set_audio(audio.Default, loop=False)
@@ -1287,7 +1263,7 @@ class App(customtkinter.CTk):
                                      title="Blink More!",
                                      msg=f"Your blink rate per minute is {average_blink}!\nTarget blink rate per minute => {blinkSetup}.",
                                      duration="long",
-                                     icon="C:\\Users\\User\\PycharmProjects\\BlinkCounter2\\test_images\\eyeblink.gif")
+                                     icon="C:\\Users\\User\\PycharmProjects\\eyeblink\\test_images\\eyeblink.gif")
                 # Condition for ringtone Settings
                 if (ringtoneSettings == "Default"):
                     toast.set_audio(audio.Default, loop=False)
@@ -1434,7 +1410,7 @@ class App(customtkinter.CTk):
 
     # EyeBlink Window for testing
     # ------------------------------------------------------------------------------------------------------------------------
-
+    # Monitor Settings functions
 
 _MONITORENUMPROC = WINFUNCTYPE(BOOL, HMONITOR, HDC, POINTER(RECT), LPARAM)
 
@@ -1538,7 +1514,6 @@ def main(argv, brightness, contrast):
         set_vcp_feature(handle, Commands.CONTRAST, contrast)
         #set_vcp_feature(handle, Commands.COLOR_PRESET, args["color_preset"])
         close_handle(handle)
-
 
 if __name__ == "__main__":
     app = App()

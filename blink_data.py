@@ -1,4 +1,4 @@
-blink_data_today = {1: 2, 2: 4}
+blink_data_today = {1: 38}
 
 blink_data_weekly = {'Monday': 3.0, 'Tuesday': 9.0, 'Wednesday': 0, 'Thursday': 11.0, 'Friday': 7.666666666666667, 'Saturday': 4.0, 'Sunday': 0}
 
