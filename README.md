@@ -1,5 +1,3 @@
---Please note that the function for blink rate statistics page is still unfinished--
-
 ![EyeVee](test_images/header_eyevee_image.png)
 
 ## Abstract
@@ -50,6 +48,7 @@ This repository is dedicated solely to the EyeVee project. Feel free to explore 
 
 
 ### Blink Rate Statistics page
+--Please note that the function for generating yearly blink rate statistics is still under development--
 ![EyeVee](test_images/blink_rate_statistics_page.png)
 
 
